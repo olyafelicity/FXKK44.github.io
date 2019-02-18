@@ -4,8 +4,8 @@
     <title>Заведеева Т.В.</title>
     <meta charset="utf-8" />
   
-<meta name="color:Background" content="#FFFFFF">
-    <meta name="color:Body Text" content="#000000">
+    <meta name="color:Background" content="#FFFFFF">
+    <meta name="color:Body Text" content="#999999">
     <meta name="color:Links" content="#333333">
     <meta name="color:Title" content="#333333">
     <meta name="color:Meta" content="#CCCCCC">
@@ -22,11 +22,11 @@
     <style type="text/css">
 
       html {
-        background-color: #FFFFFF;
+        background-color: {color:Background};
             -webkit-font-smoothing: antialiased;
       }
       body {
-        color: #999999;
+        color: {color:Body Text};
         font-family: 'Helvetica Neue', "Arial", sans-serif;
         font-size: 12px;
         line-height:1.8em;
@@ -48,7 +48,7 @@
         line-height: 28px;
       }
       a:link, a:visited {
-        color: #333333;
+        color: {color:Links};
         text-decoration: none;
       }
       a:hover, a:active {
@@ -75,7 +75,7 @@
       }
       .wrapper {
         max-width: 500px;
-        max-width:700px!important;
+        max-width:{select:Page Width}!important;
         margin: 0 auto;
         padding: 0 20px;
       }
@@ -97,12 +97,12 @@
         font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
       }
       .title a {
-        color: #333333;
+        color: {color:Title};
       }
       .description {
         text-align: center;
         padding: 20px 0 20px 0;
-        border-top: 2px solid #F2F2F2;
+        border-top: 2px solid {color:Dividers};
       }
       .nav {
         display:block;
@@ -113,8 +113,8 @@
         font-size: 11px;
         text-transform: uppercase;
         font-weight: 700;
-        border-top: 2px solid #F2F2F2;
-        border-bottom: 2px solid #F2F2F2;
+        border-top: 2px solid {color:Dividers};
+        border-bottom: 2px solid {color:Dividers};
         font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
       }
       .nav li {
@@ -142,12 +142,12 @@
         padding-bottom:60px;
         margin-top: 10px;
         font-size:11px;
-        color: #CCCCCC;
+        color: {color:Meta};
         text-transform: uppercase;
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 2px solid {color:Dividers};
       }
       .meta a {
-        color: #CCCCCC;
+        color: {color:Meta};
       }
       .date {
         margin-right: 20px;
@@ -162,7 +162,7 @@
       blockquote {
         margin-left: 20px;
         padding-left: 15px;
-        border-left: 3px #999999 solid;
+        border-left: 3px {color:Body Text} solid;
       }
       .chat {
         list-style: none;
@@ -175,7 +175,7 @@
         margin: 10px 0 0 0;
       }
       .tags a {
-        color: #CCCCCC;
+        color: {color:Meta};
       }
       .tags ul {
         list-style-type: none;
@@ -194,7 +194,7 @@
         padding-top: 40px;
       }
       .notes {
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 2px solid {color:Dividers};
         list-style: none;
         padding: 20px 0 50px 0;
         margin: 30px 0 0 0;
@@ -211,7 +211,7 @@
       .notes blockquote {
         margin: 10px 0 0 35px;
         padding-left: 10px;
-        border-left: 2px solid #999999;
+        border-left: 2px solid {color:Body Text};
       }
       .media {
         margin-bottom: 20px;
@@ -219,15 +219,15 @@
       .posts img {
         width: 100%;
       }
-      
+      {block:IfInfiniteScroll}
       #infscr-loading, .pagination {
         display: none !important;
       }
-      
+      {/block:IfInfiniteScroll}
      .pagination {
         text-align: center;
         font-weight:700;
-        border-bottom: 2px solid #F2F2F2;
+        border-bottom: 2px solid {color:Dividers};
       }
       .pagination ul {
         list-style: none;
@@ -379,15 +379,6 @@
 
             <div class="posts">
 
-              
-
-              
-
-              
-
-              
-
-              
             </div><script class="tumblr_preview_marker___">window.tumblr_preview_marker || (window.tumblr_preview_marker = 0); parent.postMessage('progress;' + (window.tumblr_preview_marker++) + ';' + document.getElementsByClassName('tumblr_preview_marker___').length, '*');</script>
 
             <div class="header-posts">
