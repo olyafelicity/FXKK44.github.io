@@ -1,32 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-
-    <!------------------------------
-      UltraZen Theme by UltraLinx
-      http://themes.theultralinx.com
-      ------------------------------>
-
-    <meta charset="UTF-8">
-
-    <title>{Title}{block:PostSummary} &mdash; {PostSummary}{/block:PostSummary}</title>
-
-    {block:Description}
-    <meta name="description" content="{MetaDescription}">
-    {/block:Description}
-
-    <link rel="shortcut icon" href="{Favicon}">
-    <link rel="apple-touch-icon" href="{PortraitURL-128}">
-    <link rel="alternate" type="application/rss+xml" href="{RSS}">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic' rel='stylesheet' type='text/css'>
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Options -->
-    <meta name="color:Background" content="#FFFFFF">
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <title>Заведеева Т.В.</title>
+    <meta charset="utf-8" />
+  
+<meta name="color:Background" content="#FFFFFF">
     <meta name="color:Body Text" content="#999999">
     <meta name="color:Links" content="#333333">
     <meta name="color:Title" content="#333333">
@@ -42,13 +20,12 @@
     <meta name="text:Google Analytics ID" content="" />
 
     <style type="text/css">
-
       html {
-        background-color: {color:Background};
+        background-color: #FFFFFF;
             -webkit-font-smoothing: antialiased;
       }
       body {
-        color: {color:Body Text};
+        color: #999999;
         font-family: 'Helvetica Neue', "Arial", sans-serif;
         font-size: 12px;
         line-height:1.8em;
@@ -70,7 +47,7 @@
         line-height: 28px;
       }
       a:link, a:visited {
-        color: {color:Links};
+        color: #333333;
         text-decoration: none;
       }
       a:hover, a:active {
@@ -97,7 +74,7 @@
       }
       .wrapper {
         max-width: 500px;
-        max-width:{select:Page Width}!important;
+        max-width:700px!important;
         margin: 0 auto;
         padding: 0 20px;
       }
@@ -119,12 +96,12 @@
         font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
       }
       .title a {
-        color: {color:Title};
+        color: #333333;
       }
       .description {
         text-align: center;
         padding: 20px 0 20px 0;
-        border-top: 2px solid {color:Dividers};
+        border-top: 2px solid #F2F2F2;
       }
       .nav {
         display:block;
@@ -135,8 +112,8 @@
         font-size: 11px;
         text-transform: uppercase;
         font-weight: 700;
-        border-top: 2px solid {color:Dividers};
-        border-bottom: 2px solid {color:Dividers};
+        border-top: 2px solid #F2F2F2;
+        border-bottom: 2px solid #F2F2F2;
         font-family: 'Montserrat', 'Helvetica Neue', "Arial", sans-serif;
       }
       .nav li {
@@ -164,12 +141,12 @@
         padding-bottom:60px;
         margin-top: 10px;
         font-size:11px;
-        color: {color:Meta};
+        color: #CCCCCC;
         text-transform: uppercase;
-        border-bottom: 2px solid {color:Dividers};
+        border-bottom: 2px solid #F2F2F2;
       }
       .meta a {
-        color: {color:Meta};
+        color: #CCCCCC;
       }
       .date {
         margin-right: 20px;
@@ -184,7 +161,7 @@
       blockquote {
         margin-left: 20px;
         padding-left: 15px;
-        border-left: 3px {color:Body Text} solid;
+        border-left: 3px #999999 solid;
       }
       .chat {
         list-style: none;
@@ -197,7 +174,7 @@
         margin: 10px 0 0 0;
       }
       .tags a {
-        color: {color:Meta};
+        color: #CCCCCC;
       }
       .tags ul {
         list-style-type: none;
@@ -216,7 +193,7 @@
         padding-top: 40px;
       }
       .notes {
-        border-bottom: 2px solid {color:Dividers};
+        border-bottom: 2px solid #F2F2F2;
         list-style: none;
         padding: 20px 0 50px 0;
         margin: 30px 0 0 0;
@@ -233,7 +210,7 @@
       .notes blockquote {
         margin: 10px 0 0 35px;
         padding-left: 10px;
-        border-left: 2px solid {color:Body Text};
+        border-left: 2px solid #999999;
       }
       .media {
         margin-bottom: 20px;
@@ -241,15 +218,15 @@
       .posts img {
         width: 100%;
       }
-      {block:IfInfiniteScroll}
+      
       #infscr-loading, .pagination {
         display: none !important;
       }
-      {/block:IfInfiniteScroll}
+      
      .pagination {
         text-align: center;
         font-weight:700;
-        border-bottom: 2px solid {color:Dividers};
+        border-bottom: 2px solid #F2F2F2;
       }
       .pagination ul {
         list-style: none;
@@ -357,277 +334,158 @@
         -o-animation-name: fadeInDown;
         animation-name: fadeInDown;
       }
-
     </style>
 
-    <style>{CustomCSS}</style>
-
-  </head>
-
-  <body>
-
+</head>
+	
+<body>
+		
     <div class="wrapper">
-
       <div class="header">
-
         <div class="logotitle animated fadeInDown">
-
-          {block:IfLogoImage}
-          <div class="logo">
-            <a href="/">
-              <img src="{image:Logo}" alt={Title}">
-            </a>
-          </div>
-          {/block:IfLogoImage}
-
-          {block:IfNotLogoImage}
           <div class="title">
-            <a href="/">{Title}</a>
+            <a href="https://github.com/stankin/design-2019/wiki/%D0%98%D0%94%D0%91_15_12">ИДБ-15-12 Заведеева Т.В.</a>
           </div>
-          {/block:IfNotLogoImage}
-
         </div>
-
-        {block:Description}
-        <div class="description">{Description}</div>
-        {block:Description}
-
         <ul class="nav">
-
-          {block:HasPages}
-          {block:Pages}
-          <li><a href="{URL}">{Label}</a></li>
-          {block:Pages}
-          {/block:HasPages}
-
-          {block:AskEnabled}
-          <li><a href="/ask">Ask</a></li>
-          {/block:AskEnabled}
-
-          {block:SubmissionsEnabled}
-          <li><a href="/submit">Submit</a></li>
-          {/block:SubmissionsEnabled}
-
-          <li><a href="/archive">Archive</a></li>
-          <li><a href="/random">Random</a></li>
-          <li><a href="{RSS}">RSS</a></li>
-
+		<li><a href="#лабораторная-работа-1" id="lr1-link"><span class="icon fa-th">ЛР1</span></a></li>
+		<li><a href="#лабораторная-работа-2" id="lr2-link"><span class="icon fa-th">ЛР2</span></a></li>
+		<li><a href="#лабораторная-работа-3" id="lr3-link"><span class="icon fa-th">ЛР3</span></a></li>
+		<li><a href="#лабораторная-работа-4" id="lr4-link"><span class="icon fa-th">ЛР4</span></a></li>
+		<li><a href="#лабораторная-работа-5" id="lr5-link"><span class="icon fa-th">ЛР5</span></a></li>
+		<li><a href="#лабораторная-работа-6" id="lr6-link"><span class="icon fa-th">ЛР6</span></a></li>
+		<li><a href="#лабораторная-работа-7" id="lr7-link"><span class="icon fa-th">ЛР7</span></a></li>
         </ul>
+	</div>
+	    	
+	</div>
+	<section id="lr1">
+		<h1>Лабораторная работа 1</h1>
 
-        <a id="install-btn" class="not-ready" href="http://themes.theultralinx.com/?utm_source=ultrazen%20theme&utm_medium=button&utm_campaign=ultrazen%20theme%20install%20button" target="_blank">
-          <img src="http://static.tumblr.com/8jq17g7/Re3lqefyw/install.png" alt="Install Theme">
-        </a>
+<h3>1. Идентификатор прецедента</h3>
 
-        <div class="autopagerize_page_element">
+<p>Управление проектами</p>
 
-          {block:Posts}
+<h3>2. Название прецедента</h3>
 
-          <div class="post" id="{PostID}">
+<p>Координирование процесса разработки ПО</p>
 
-            <div class="posts">
+<h3>3. Контекст</h3>
 
-              {block:Photo}
-              <div class="media">
-                {LinkOpenTag}
-                <img src="{PhotoURL-HighRes}" alt="{PhotoAlt}" />
-                {LinkCloseTag}
-              </div>
-              {block:Caption}
-              <div class="photoCaption">{Caption}</div>
-              {/block:Caption}
-              {/block:Photo}
+<p>Разработка ПО</p>
 
-              {block:Photoset}
-              <div class="media">{Photoset}</div>
-              {block:Caption}
-              <div class="caption">{Caption}</div>
-              {/block:Caption}
-              {/block:Photoset}
+<h3>4. Участники (actors) и цели (goals)</h3>
 
-              {block:Audio}
-              <div class="audioleft">
-                <div class="audioc">
-                  <div class="audio">{AudioPlayerBlack}</div>
-                </div>
-              </div>
-              <div class="audioright">
-                <div class="audioCaption">
-                  {block:Artist}<b>{Artist}</b>{/block:Artist}
-                  <p>&mdash;{block:TrackName}{TrackName}{/block:TrackName}</p>
-                </div>
-              </div>
-              <div class="audioClear"></div>
-              <div class="audioContainer">
-                {block:Caption}{Caption}{/block:Caption}
-              </div>
-              {/block:Audio}
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<thead>
+		<tr>
+			<th scope="col">Участник</th>
+			<th scope="col">Категория</th>
+			<th scope="col">Цель</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Владелец продукта</td>
+			<td>Основной</td>
+			<td>Представить интересы заказчика</td>
+		</tr>
+		<tr>
+			<td>Команда разработки</td>
+			<td>Основной</td>
+			<td>Разработать продукт (выполнить задачи)</td>
+		</tr>
+		<tr>
+			<td>Заказчик</td>
+			<td>Внешний</td>
+			<td>Предоставить требования к ПП</td>
+		</tr>
+		<tr>
+			<td>Система управления проектами</td>
+			<td>Инструмент</td>
+			<td>Предоставить КИС</td>
+		</tr>
+		<tr>
+			<td>Scrum-доска</td>
+			<td>Инструмент</td>
+			<td>Предоставить возможность отслеживать статусы задач</td>
+		</tr>
+	</tbody>
+</table>
 
-              {block:Video}
-              <div class="js-media media">{Video-700}</div>
-              {block:Caption}
-              <div>{Caption}</div>
-              {/block:Caption}
-              {/block:Video}
+<h3>5. Предусловия (pre-conditions)</h3>
 
-              {block:Answer}
-              <h3>{Asker} asked: {Question}</h3>
-              {Answer}
-              {/block:Answer}
-            </div>
+<ul>
+	<li>Заказчик сформировал свою идею&nbsp;и подготовил требования.</li>
+	<li>Система управления проектами установлена на ПК всех основных участников.</li>
+	<li>Основные участники ознакомлены с функционалом системы.</li>
+</ul>
 
-            <div class="header-posts">
+<h3>6. Постусловия (post-conditions)</h3>
 
-              {block:Text}
-              {block:Title}
-              <h2><a href="{Permalink}">{Title}</a></h2>
-              {/block:Title}
-              {Body}
-              {/block:Text}
+<ul>
+	<li>ПП разработан в срок, указанный в договоре&nbsp;</li>
+	<li>Ресурсы не превышены</li>
+	<li>Заказчик доволен ПП</li>
+</ul>
 
-              {block:Link}
-              <h2><a href="{URL}" {Target}>{Name} &rarr;</a></h2>
-              {block:Description}
-              <div>{Description}</div>
-              {/block:Description}
-              {/block:Link}
+<h3>7. Основной поток (main flow)</h3>
 
-              {block:Quote}
-              <div class="quote">{Quote}</div>
-              {block:Source}
-              <div id="quoteSource"><p>&mdash; {Source}</p></div>
-              {/block:Source}
-              {/block:Quote}
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<thead>
+		<tr>
+			<th scope="col">Участник</th>
+			<th scope="col">Действие</th>
+			<th scope="col">Ожидаемый резульат</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Владелец продукта</td>
+			<td>Собирает требования заказчика</td>
+			<td>Составлен бэклог</td>
+		</tr>
+		<tr>
+			<td>Владелец продукта</td>
+			<td>Участвует в оценке бэклога</td>
+			<td>Задачи в бэклоге оценены по весу и приоритету</td>
+		</tr>
+		<tr>
+			<td>Владелец продукта</td>
+			<td>Рекомендует приоритетные задачи в ходе планирования спринта</td>
+			<td>Сначала выполняются самые важные задачи</td>
+		</tr>
+		<tr>
+			<td>Команда разработки</td>
+			<td>Участвует в оценке бэклога</td>
+			<td>Задачи в бэклоге оценены по весу и приоритету</td>
+		</tr>
+		<tr>
+			<td>Команда разработки</td>
+			<td>Выполняет разработку продукта</td>
+			<td>Задачи выполняются</td>
+		</tr>
+		<tr>
+			<td>Заказчик</td>
+			<td>Предоставляет требования</td>
+			<td>Владелец продукта получил требования и представление об их приоритете</td>
+		</tr>
+		<tr>
+			<td>Заказчик</td>
+			<td>Оценивает выполненную работу</td>
+			<td>Команда получает оценку качества ПП</td>
+		</tr>
+	</tbody>
+</table>
 
-              {block:Chat}
-              {block:Title}
-              <h2>{Title}</h2>
-              {/block:Title}
-              <ul class="chat">
-                {block:Lines}
-                <li>{block:Label}<strong>{Label}</strong>{/block:Label} {Line}</li>
-                {/block:Lines}
-              </ul>
-              {/block:Chat}
+<h3>8. Исключения (exceptions)</h3>
 
-            </div>
+<p>Заказчик отменил требования, расторгнул договор.&nbsp;</p>
 
-            {block:HasTags}
-            <ul class="tags">
-              {block:Tags}
-              <li><a href="{TagURL}">#{Tag}</a></li>
-              {/block:Tags}
-            </ul>
-            {/block:HasTags}
+<h3>9. Альтернативы (alternates)</h3>
 
-            <div class="meta">
-              <div class="datenotes">
+<p>Заказчик изменил требования.</p>
 
-              {block:IfShowDate}
-              {block:Date}
-              <span class="date"><a href="{Permalink}">{DayOfMOnth}{DayOfMonthSuffix} {ShortMonth} {Year}</a></span>
-              {/block:Date}
-              {/block:IfShowDate}
-
-              {block:IfShowNoteCount}
-              {block:NoteCount}
-              <a href="{Permalink}#notes">{NoteCountWithLabel}</a>
-              {/block:NoteCount}
-              {/block:IfShowNoteCount}
-
-            </div>
-
-            {block:IfShowLikeReblogButtons}
-            <div class="like-button">{LikeButton color="grey size="15"}</div>
-            <div class="reblog-button">{ReblogButton color="grey size="15"}</div>
-            {/block:IfShowLikeReblogButtons}
-
-          </div>
-
-          {block:PostNotes}
-          {PostNotes}
-          {/block:PostNotes}
-
-        </div>
-        {/block:Posts}
-
-      </div>
-
-      {block:Pagination}
-      <div class="pagination">
-
-        <ul class="clearfix">
-          {block:PreviousPage}
-          <li><a href="{PreviousPage}" id="newer">Newer</a></li>
-          {/block:PreviousPage}
-          {block:JumpPagination length="10"}
-          {block:CurrentPage}
-          <li><a href="{URL}" class="active">{PageNumber}</a></li>
-          {/block:CurrentPage}
-          {block:JumpPage}
-          <li><a href="{URL}">{PageNumber}</a></li>
-          {/block:JumpPage}
-          {/block:JumpPagination}
-          {block:NextPage}
-          <li><a href="{NextPage}" id="older">Older</a></li>
-          {/block:NextPage}
-        </ul>
-
-      </div>
-      {/block:Pagination}
-
-      <div class="footer">
-        Â© {CopyrightYears} - {Title} - Powered by Tumblr <br> <strong><p><a href="http://themes.theultralinx.com/?utm_source=ultrazen%20theme&utm_medium=link&utm_campaign=ultrazen%20theme%20footer%20credit">UltraZen Theme by UltraLinx</a></p></strong>
-      </div>
-
-    </div>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://static.tumblr.com/t8k4hxe/WK1mslt6q/jquery.fitvids.js"></script>
-
-    <script>
-
-      $('.js-media').fitVids({ customSelector: 'iframe' });
-
-    </script>
-
-    {block:IfInfiniteScroll}
-    {block:IndexPage}
-    <script src="http://static.tumblr.com/pqftzxm/Utcnytumt/jquery.infinitescroll.min.js"></script>
-    <script>
-      (function () {
-
-        $('.autopagerize_page_element').infinitescroll({
-          navSelector: '.pagination',
-          nextSelector: '.pagination #older',
-          itemSelector: '.post',
-          bufferPx: 600
-        }, function (newElements) {
-          var $newElems = $(newElements).css({
-            opacity: 0
-          });
-          var $newElemsIDs = $newElems.map(function () {
-            return this.id;
-          }).get();
-          $newElems.find('.js-media').fitVids({ customSelector: 'iframe' });
-          Tumblr.LikeButton.get_status_by_post_ids($newElemsIDs);
-          $newElems.animate({
-            opacity: 1
-          });
-        });
-
-      })();
-    </script>
-    {/block:IndexPage}
-    {/block:IfInfiniteScroll}
-
-    {block:IfGoogleAnalyticsID}
-    <script>
-      var _gaq=[['_setAccount','{text:Google Analytics ID}'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-    {/block:IfGoogleAnalyticsID}
-
-  </body>
+	</section>
+</body>
 </html>
