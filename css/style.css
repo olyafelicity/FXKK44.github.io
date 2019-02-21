@@ -117,7 +117,7 @@ body {
 }
 
 #intro {
-  background-image: url('../img/bg3.jpg');
+  background-image: url('../img/bg4.jpg');
   color: #ffffff;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -197,50 +197,50 @@ body {
 }
 
 #lr1 {
-  background-color: #0B5345;
+  background-color: #2C4305;
   color: #e4e6e5;
   padding-top: 90px;
 }
 
 #lr2 {
-  background-color: #186A3B;
+  background-color: #766A00;
   color: #e4e6e5;
   padding-top: 90px;
 }
 
 #lr3 {
-  background-color: #7D6608;
+  background-color: #C6930A;
   color: #e4e6e5;
   padding-top: 90px;
 }
 
 #lr4 {
-  background-color: #6E2C00;
+  background-color: #DD7500;
   color: #e4e6e5;
   padding-top: 90px;
 }
 
 #lr5 {
-  background-color: #641E16;
+  background-color: #D14414;
   color: #e4e6e5;
   padding-top: 90px;
 }
 
 #lr6 {
-  background-color: #4A235A;
+  background-color: #AF1E2D;
   color: #e4e6e5;
   padding-top: 90px;
 }
 
 #lr7 {
-  background-color: #154360;
+  background-color: #5E2154;
   color: #e4e6e5;
   padding-top: 90px;
 }
 
 #slide-7 {
-  background-color: #e4e6e5;
-  color: #4e4e4e;
+  background-color: #002654;
+  color: #e4e6e5;
   font-size: 35px;
   line-height: 50px;
   text-align: center;
