@@ -74,7 +74,7 @@ body {
   background: none;
 }
 .navbar .active a {
-  border-bottom: 2px solid #005846;
+  border-bottom: 2px solid #F1C40F;
 }
 
 .navbar-scrolled {
@@ -354,7 +354,7 @@ body {
 }
 
 #copyrights a {
-  color: #1abc9c;
+  color: #F1C40F;
 }
 .credits {
   color: #999;
