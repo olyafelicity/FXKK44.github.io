@@ -10,11 +10,13 @@
 .font-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 20px;
 }
 
 .font-black {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
+  font-size: 20px;
 }
 
 .font-semibold {
@@ -201,11 +203,19 @@ body {
   color: #e4e6e5;
   padding-top: 90px;
 }
+.title-row {
+  font-size: 45px;
+  padding-bottom: 50px;
+}
 
 #lr2 {
   background-color: #766A00;
   color: #e4e6e5;
   padding-top: 90px;
+}
+.title-row {
+  font-size: 45px;
+  padding-bottom: 50px;
 }
 
 #lr3 {
@@ -213,11 +223,19 @@ body {
   color: #e4e6e5;
   padding-top: 90px;
 }
+.title-row {
+  font-size: 45px;
+  padding-bottom: 50px;
+}
 
 #lr4 {
   background-color: #DD7500;
   color: #e4e6e5;
   padding-top: 90px;
+}
+.title-row {
+  font-size: 45px;
+  padding-bottom: 50px;
 }
 
 #lr5 {
@@ -225,17 +243,29 @@ body {
   color: #e4e6e5;
   padding-top: 90px;
 }
+.title-row {
+  font-size: 45px;
+  padding-bottom: 50px;
+}
 
 #lr6 {
   background-color: #AF1E2D;
   color: #e4e6e5;
   padding-top: 90px;
 }
+.title-row {
+  font-size: 45px;
+  padding-bottom: 50px;
+}
 
 #lr7 {
   background-color: #5E2154;
   color: #e4e6e5;
   padding-top: 90px;
+}
+.title-row {
+  font-size: 45px;
+  padding-bottom: 50px;
 }
 
 #slide-7 {
