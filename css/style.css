@@ -3,20 +3,32 @@
 *  Template URL: https://templatemag.com/munter-bootstrap-one-page-template/
 *  Author: TemplateMag.com
 *  License: https://templatemag.com/license/
+*  font-family: 'Roboto', sans-serif;
+*  font-family: 'Montserrat', sans-serif;
 */
 
-.font-thin {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 200;
+/*.font-thin {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}*/
+
+.font-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.font-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
 .font-semibold {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
 .font-light {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
 
@@ -38,7 +50,7 @@ html, body {
 
 body {
   background-color: #2f2f2f;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased !important;
