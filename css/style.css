@@ -8,14 +8,14 @@
 */
 
 .font-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
   font-size: 20px;
 }
 
 .font-black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
   font-size: 20px;
 }
 
