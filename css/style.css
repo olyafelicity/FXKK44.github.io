@@ -194,49 +194,7 @@ body {
   font-size: 45px;
   padding-bottom: 50px;
 }
-.table-table {
-  margin: 0 0 40px 0
- /* width: 100%
-  display: table */
-}
-.row-table {
-  display: table-row
-}
-  &:nth-of-type(even){
-    background: #212121
-}
-  &.header-table{
-    font-weight: 600
-    color: #ffffff
-    padding: 14px 0 7px
-}
-    &.header-table{
-      padding: 0
-      /*height: 6px*/
-}
-      .cell-table {
-        display: none
-}
-    .cell-table {
-      margin-bottom: 10px
-}
-      /*&:before {
-        margin-bottom: 3px
-        content: attr(data-title)
-        min-width: 98px
-        font-size: 10px
-        line-height: 10px
-        font-weight: bold
-        text-transform: uppercase
-        color: #969696
-        display: block
-}*/
-.cell-table {
-  padding: 6px 12px
-  display: table-cell
-    padding: 2px 16px
-      }
-      
+
 #lr2 {
   background-color: #766A00;
   color: #e4e6e5;
