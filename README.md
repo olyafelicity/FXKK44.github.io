@@ -11,3 +11,5 @@
 [Лабораторная работа 6](https://fxkk44.github.io/#lr6)
 
 [Лабораторная работа 7](https://fxkk44.github.io/#lr7)
+
+[Реферат](https://github.com/stankin/design-2019/wiki/exam_08)
